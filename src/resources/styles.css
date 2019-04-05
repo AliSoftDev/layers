@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Aerial', serif;
+}
+
+.font_comic_sans {
+    font-family: 'Comic Sans', cursive;
+}
+
+.bck_black {
+    background: #3c3c3c;
+}
+.bck_white {
+    background: #ffffff;
+}
+.bck_red {
+    background: #ff4800;
+}
+.bck_yellow {
+    background: #ffa800;
+}
+
+.iconImage {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.center_wrapper {
+    width: 900px;
+    margin:0 auto;
+}
+
+
+/*====================
+        HEADER
+======================*/
+
+
+header {
+    padding: 10px 0px;
+    transition: all 500ms ease-in;
+}
+
+header .header_logo {
+    flex-grow: 2;
+}
+header .header_logo_layer {
+    font-size: 40px;
+}
+
+header .header_logo_text {
+    text-transform: uppercase;
+}
+
+header .buttons {
+    padding: 30px;
+}
+
+
+/*====================
+        SLIDESHOW
+======================*/
+
+.carrousel_wrapper {
+    height: 700px;
+    overflow: hidden;
+}
+
+.carrousel_image {
+    background-size: cover !important;
+}
+
+.business_name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 160px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+}
+
+.wrapper {
+    border: 2px solid white;
+    height: 121px;
+    margin: 6px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    padding: 21px 70px 0px 70px;
+    text-transform: uppercase;
+}
+
+/*====================
+        ABOUT US
+======================*/
+
+
+.highlight_wrapper h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color:#2c2c2c;
+    font-size: 52px;
+}
+
+.highlight_wrapper .highlight_description {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 30px 0px;
+}
+
+.discount_wrapper {
+    display: flex;
+    padding: 70px 0px;
+}
+
+.discount_wrapper .discount_percentage {
+    padding-right: 100px;
+}
+
+.discount_wrapper .discount_percentage span:nth-child(1) {
+    color: #ff4800;
+    font-size: 125px;
+    font-weight: 400;
+    display: block;
+    line-height: 120px;
+}
+
+.discount_wrapper .discount_percentage span:nth-child(2) {
+    color: #2c2c2c;
+    font-size: 50px;
+    font-weight: 400;
+    display: block;
+}
+
+
+.discount_wrapper .discount_description h3 {
+    font-size: 34px;
+    font-weight: 100;
+    margin: 0px;
+    color: #2c2c2c;
+}
+
+.discount_wrapper .discount_description p { 
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+/*====================
+        MENU
+======================*/
+
+
+.menu_wrapper {
+    width: 900px;
+    margin: auto;
+    background-color: #605a56;
+    padding: 60px 400px 150px 400px;
+}
+
+.menu_wrapper h3 {
+    text-align: center;
+    font-size: 50px;
+}
+
+/*====================
+        MAP
+======================*/
+
+
+.location_wrapper {
+    position:relative;
+}
+
+.location_tag {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.location_tag div{
+    background: #2c2c2c;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 220px;
+    margin: 0 auto;
+    font-size: 29px;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+
+/*====================
+        MAP
+======================*/
+
+footer {
+    padding:50px 0px;
+    text-align: center;
+    font-size: 60px;
+    color:#ffffff;
+    background: red;
+}
+
+footer .font_comic_sans {
+    margin-bottom: 60px;
+}
+
+footer .copyright {
+    font-size: 18px;
+}
